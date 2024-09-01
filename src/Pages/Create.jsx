@@ -118,7 +118,7 @@ const Create = () => {
                 </div>
                 <div className='mx-14 mt-10  mb-4 text-3xl'><h1>How many days are you planning to trip ?</h1></div>
                 <form action="" className='mx-14  border-2  hover:border-blue-300  focus:outline-blue-300 flex flex-row items-center justify-between'>
-                    <input className='w-full h-10 px-4 border-none  focus:outline-none' type="number" placeholder='enter the location' onChange={(e) => handleinput("duration", e.target.value)} min={0} />
+                    <input className='w-full h-10 px-4 border-none  focus:outline-none' type="number" placeholder='enter the No of days' onChange={(e) => handleinput("duration", e.target.value)} min={0} />
                 </form>
                 <div className=' mx-14 mt-10'><h1 className='text-3xl'>What's your bugdet?</h1></div>
                 <div className='mx-14 grid grid-flow-row grid-cols-4 gap-8 sm:text-sm md:text-1xl' >
